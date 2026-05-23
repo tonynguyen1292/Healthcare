@@ -1,0 +1,7 @@
+# Ignore all zip files
+*.zip
+
+# Optional: also ignore other archive formats
+*.rar
+*.tar.gz
+*.7z
