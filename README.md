@@ -4,9 +4,9 @@ This project analyses the mental health treatment gap in Western Australia, with
 
 ## Project context
 
-National surveys show that around one in five Australians experiences a mental disorder in a given year, yet less than half of those with a 12‑month mental disorder access professional help for their mental health. [web:5][web:9] Evidence also shows that people living outside major cities have more limited access to mental health services despite similar levels of need. [web:7] In Western Australia, regional and remote communities experience high distress, lower wellbeing, and ongoing unmet mental health needs. [web:10]
+National surveys show that around one in five Australians experiences a mental disorder in a given year, yet less than half of those with a 12‑month mental disorder access professional help for their mental health. Evidence also shows that people living outside major cities have more limited access to mental health services despite similar levels of need. In Western Australia, regional and remote communities experience high distress, lower wellbeing, and ongoing unmet mental health needs. 
 
-This project uses modelled estimates from the National Study of Mental Health and Wellbeing (NSMHW) and related sources to quantify the treatment gap in Western Australia and identify where access barriers are likely to be most acute. [web:5][web:12]
+This project uses modelled estimates from the National Study of Mental Health and Wellbeing (NSMHW) and related sources to quantify the treatment gap in Western Australia and identify where access barriers are likely to be most acute. 
 
 ## Objectives
 
@@ -70,4 +70,4 @@ Potential extensions include:
 
 - Interactive dashboards for WA mental health treatment gaps (by region and demographic).
 - Scenario analysis for funding or workforce distribution.
-- Deeper focus on specific populations (e.g. young people, Aboriginal communities) where data allows. [web:8][web:10]
+- Deeper focus on specific populations (e.g. young people, Aboriginal communities) where data allows. 
