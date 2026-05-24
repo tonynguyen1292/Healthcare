@@ -47,10 +47,10 @@ Healthcare/
 - `docs/01_problem_statement.md` – defines the core problem, objectives, and success criteria.
 - `docs/02_scope_and_assumptions.md` – clarifies boundaries, in‑scope/out‑of‑scope items, and key assumptions.
 - `docs/03_stakeholder_analysis.md` – outlines stakeholder groups and their information needs.
-- `docs/04_business_requirements.md` – captures business needs and high‑level requirements.
-- `docs/05_data_sources_and_questions.md` – links data sources to analytical questions.
-- `docs/06_solution_approach.md` – describes the analytical and technical approach.
-- `reports/` – will contain the final findings and recommendations.
+- `docs/04_business_requirements.md` – captures business needs and high‑level requirements. (will be commited once reviewed)
+- `docs/05_data_sources_and_questions.md` – links data sources to analytical questions. (will be commited once reviewed)
+- `docs/06_solution_approach.md` – describes the analytical and technical approach. (will be commited once reviewed)
+- `reports/` – will contain the final findings and recommendations. (will be commited once reviewed)
 
 ## Current status
 
