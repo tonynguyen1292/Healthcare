@@ -30,27 +30,61 @@ Planned structure:
 
 ```text
 Healthcare/
-├─ data_raw/               # Source datasets and zipped files (read-only)
+├─ data_raw/
 │  ├─ Mental-health-tables-National.zip
 │  ├─ Mental-health-tables-State-and-territory.zip
 │  └─ Modelled-estimates-from-NSMHW-by-PHN.zip
-├─ data_processed/         # Cleaned / transformed data for analysis
-├─ notebooks/              # Exploratory and analytical notebooks / scripts
-├─ docs/                   # BA documentation (problem, scope, requirements, etc.)
-├─ reports/                # Final analyses and recommendation reports
+├─ data_processed/
+│  └─ wa_treatment_gap_summary.csv
+├─ docs/
+│  ├─ 01_problem_statement.md          ✅ committed
+│  ├─ 02_scope_and_assumptions.md      ✅ committed
+│  ├─ 03_stakeholder_analysis.md       ✅ committed
+│  ├─ 04_business_requirements.md      ✅ committed
+│  ├─ 05_data_sources_and_questions.md ✅ committed
+│  ├─ 06_as_is_process.md              🔲 to commit
+│  ├─ 07_gap_analysis.md               🔲 to commit
+│  ├─ 08_solution_requirements.md      🔲 to commit
+│  └─ 09_use_cases.md                  🔲 to commit
+├─ notebooks/
+│  ├─ 01_data_ingestion_wa.ipynb
+│  ├─ 02_treatment_gap_analysis.ipynb
+│  └─ 03_barrier_analysis.ipynb
+├─ reports/
+│  ├─ 01_findings_and_recommendations.md
+│  ├─ 02_executive_summary.md
+│  └─ 03_dashboard_spec.md             
 ├─ .gitignore
 └─ README.md
 ```
 
 ## Key documentation
 
-- `docs/01_problem_statement.md` – defines the core problem, objectives, and success criteria.
-- `docs/02_scope_and_assumptions.md` – clarifies boundaries, in‑scope/out‑of‑scope items, and key assumptions.
-- `docs/03_stakeholder_analysis.md` – outlines stakeholder groups and their information needs.
-- `docs/04_business_requirements.md` – captures business needs and high‑level requirements. (will be commited once reviewed)
-- `docs/05_data_sources_and_questions.md` – links data sources to analytical questions. (will be commited once reviewed)
-- `docs/06_solution_approach.md` – describes the analytical and technical approach. (will be commited once reviewed)
-- `reports/` – will contain the final findings and recommendations. (will be commited once reviewed)
+`docs/01_problem_statement.md` – defines the core healthcare access problem, project purpose, objectives, and success criteria.
+
+`docs/02_scope_and_assumptions.md` – defines boundaries, assumptions, constraints, and what is included or excluded from the analysis.
+
+`docs/03_stakeholder_analysis.md` – identifies key stakeholder groups and their planning, service, and information needs.
+
+`docs/04_business_requirements.md` – captures high-level business requirements that guide the analysis and reporting.
+
+`docs/05_data_sources_and_questions.md` – maps business requirements to analytical questions and supporting data sources.
+
+`docs/06_as_is_process.md` – describes the current-state process through which people in WA seek and access mental health care.
+
+Planned BA extension documents
+`docs/07_gap_analysis.md` – will compare the current state to the desired future state and identify major business and service gaps.
+
+`docs/08_solution_requirements.md` – will translate identified gaps into solution-oriented business and information requirements.
+
+`docs/09_use_cases.md` – will describe how specific stakeholders would use the project outputs for planning and decision-making.
+
+## Analytical and reporting outputs
+`notebooks/` – will contain the exploratory and targeted analytical workflow supporting the case study.
+
+`data_processed/` – will contain cleaned outputs used to quantify treatment gap indicators.
+
+`reports/` – will contain the final findings, recommendations, executive summary, and any dashboard specification.
 
 ## Current status
 
@@ -60,14 +94,12 @@ Healthcare/
 
 ## Intended audience
 
-- Health system decision makers (government, PHNs, NGOs).
-- Data and business leaders interested in health equity and service planning.
-- Recruiters and hiring managers evaluating hybrid BA / data roles.
+- Health system decision makers involved in policy, commissioning, and service planning.
+- Recruiters and hiring managers evaluating ICT Business Analyst capability in healthcare and analytics contexts.
+- Analysts, students, and practitioners interested in hybrid BA/data workflows for public sector problem-solving.
 
 ## Future extensions
 
 Potential extensions include:
 
-- Interactive dashboards for WA mental health treatment gaps (by region and demographic).
-- Scenario analysis for funding or workforce distribution.
-- Deeper focus on specific populations (e.g. young people, Aboriginal communities) where data allows. 
+- Planned future enhancements include gap analysis, solution requirements, use cases, recommendation reports, and potentially a dashboard specification or interactive visual layer to support decision-making. These additions will extend the repository from a problem-definition case study into a fuller end-to-end BA artefact showing how evidence can support service planning and equity-focused decisions in healthcare.
