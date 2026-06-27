@@ -42,7 +42,7 @@ Healthcare/
 │  ├─ 03_stakeholder_analysis.md       ✅ committed
 │  ├─ 04_business_requirements.md      ✅ committed
 │  ├─ 05_data_sources_and_questions.md ✅ committed
-│  ├─ 06_as_is_process.md              🔲 to commit
+│  ├─ 06_as_is_process.md              ✅ committed
 │  ├─ 07_gap_analysis.md               🔲 to commit
 │  ├─ 08_solution_requirements.md      🔲 to commit
 │  └─ 09_use_cases.md                  🔲 to commit
