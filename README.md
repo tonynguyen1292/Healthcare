@@ -8,6 +8,8 @@ National surveys show that around one in five Australians experiences a mental d
 
 This project uses modelled estimates from the National Study of Mental Health and Wellbeing (NSMHW) and related sources to quantify the treatment gap in Western Australia and identify where access barriers are likely to be most acute. 
 
+**Start here:** `docs/initiation/00_initiative_one_pager.md` for a one-screen summary, or `docs/initiation/09_delivery_plan_sprints.md` for the full sprint-by-sprint delivery plan and timeline.
+
 ## Objectives
 
 - Quantify mental health need and service use for Western Australia overall and by region.
@@ -83,21 +85,33 @@ Planned BA extension documents
 `docs/09_use_cases.md` – will describe how specific stakeholders would use the project outputs for planning and decision-making.
 
 ## Analytical and reporting outputs
-`notebooks/` – will contain the exploratory and targeted analytical workflow supporting the case study.
+`notebooks/` – exploratory and targeted analytical workflow supporting the case study. Structure and sprint mapping exist now (stubs); analysis code lands sprint by sprint per the roadmap above.
 
-`data_processed/` – will contain cleaned outputs used to quantify treatment gap indicators.
+`data_processed/` – cleaned outputs used to quantify treatment gap indicators. Empty until Sprint 1-2 (Epic H1) runs.
 
-`reports/` – will contain the final findings, recommendations, executive summary, and any dashboard specification.
+`reports/` – final findings, recommendations, and executive summary. Structure exists now (stubs); content lands in Sprint 4-5.
 
 ## Current status
 
-- Phase 1: Problem definition and initial documentation drafted.
-- Phase 2 (planned): Data ingestion, cleaning, and exploratory analysis for WA and comparison regions.
-- Phase 3 (planned): Visualisation, synthesis, and generation of recommendations.
+- **Phase 1 — Discovery: complete.** Problem statement, scope, stakeholder analysis, business requirements, and data-source mapping (`docs/01`–`06`) are drafted and stable.
+- **Phase 1.5 — Initiation: complete.** `docs/initiation/` adds the formal delivery-governance pack (business case, project charter, stakeholder and risk registers, requirements/epics, current/future state, and governance & communications plan) that authorises and scopes Phase 2/3.
+- **Phase 2/3 — Delivery: scheduled, not yet started.** `notebooks/`, `reports/`, and the remaining `docs/07`–`09` files exist as labelled stubs matching the plan below — no analysis has run yet.
+
+### Roadmap
+
+| Sprint | Dates | Focus |
+|---|---|---|
+| 1 | 2026-07-20 – 2026-08-02 | Data ingestion parsers (National/State + PHN-modelled schemas) |
+| 2 | 2026-08-03 – 2026-08-16 | Standardised output, data-quality checks, treatment-gap computation |
+| 3 | 2026-08-17 – 2026-08-30 | Regional/demographic comparative reporting, priority-population thresholds |
+| 4 | 2026-08-31 – 2026-09-13 | Barrier analysis, gap analysis & solution-requirements docs, report drafting |
+| 5 | 2026-09-14 – 2026-09-27 | Final report, executive summary, documentation pass |
+
+Full work-item breakdown, hour estimates, and planning assumptions: `docs/initiation/09_delivery_plan_sprints.md`.
 
 ## Project initiation pack
 
-`docs/initiation/` holds the formal delivery-governance pack (business case, project charter, stakeholder and risk registers, requirements/epics, current/future state, and governance & communications plan) that authorises and scopes Phase 2/3 above. Start with `docs/initiation/00_initiative_one_pager.md`. This pack builds on — and does not replace — the discovery documents in `docs/01`–`06` above; each initiation document cites which parts are confirmed from the existing analysis versus newly drafted.
+`docs/initiation/` holds the formal delivery-governance pack described above. This pack builds on — and does not replace — the discovery documents in `docs/01`–`06`; each initiation document cites which parts are confirmed from the existing analysis versus newly drafted.
 
 ## Intended audience
 
@@ -107,6 +121,6 @@ Planned BA extension documents
 
 ## Future extensions
 
-Potential extensions include:
+Authorised for this delivery (Business Case Option 1, see `docs/initiation/04_business_case.md`): gap analysis, solution requirements, use cases, and a recommendation report — the roadmap above. These extend the repository from a problem-definition case study into a fuller end-to-end BA artefact showing how evidence can support service planning and equity-focused decisions in healthcare.
 
-- Planned future enhancements include gap analysis, solution requirements, use cases, recommendation reports, and potentially a dashboard specification or interactive visual layer to support decision-making. These additions will extend the repository from a problem-definition case study into a fuller end-to-end BA artefact showing how evidence can support service planning and equity-focused decisions in healthcare.
+Deliberately **not** authorised yet: an interactive dashboard (Business Case Option 2). Logged as a stretch goal, not committed — the current plan finishes the static report first and revisits the dashboard decision only once that's delivered and validated.

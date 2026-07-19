@@ -5,7 +5,7 @@
 ## Planning assumptions [state these explicitly — adjust and re-run the math if wrong]
 
 - **Solo delivery**, ~6–8 hours/week (midpoint 7 used below). This is a working assumption, not confirmed capacity — see sensitivity table at the end.
-- **2-week sprints**, matching the convention already used on the sibling JobSearchCopilot project, for consistency across this portfolio.
+- **2-week sprints** — long enough for a solo, part-time contributor to complete meaningful, demonstrable work each sprint, short enough to keep momentum and catch estimate drift early.
 - Estimates below are grounded in the actual data structure inspected directly (see chat response) — two distinct parser schemas, uncertainty data (RSE/MoE/RRMSE/CI) present and to be carried through, messy multi-row publication headers.
 - No workshops/stakeholder validation time is budgeted — this is solo, self-directed delivery per the Governance Plan; the "workshop" items from the initiation pack are logged as open gaps, not scheduled work.
 

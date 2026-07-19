@@ -9,7 +9,7 @@ Given no real sponsor currently exists (R-07), governance is intentionally light
 |---|---|---|
 | Sponsor / approval authority | None — PO/BA self-approves | WA Dept of Health / Mental Health Commission [TO BE CONFIRMED] |
 | Steering / review | None | WAPHA + Dept of Health working group [TO BE CONFIRMED] |
-| Delivery | Product Owner / BA (Vy Nguyen) — solo | Same, potentially supported by a data analyst if this project ever merges into the JobSearchCopilot-style team model |
+| Delivery | Product Owner / BA (Vy Nguyen) — solo | Same, potentially supported by a data analyst if this project ever gains additional contributors |
 
 ## Decision forums
 [TO BE CONFIRMED if real stakeholders are ever engaged] Proposed cadence *if* this becomes a simulated or real stakeholder engagement: a single findings-review session before publication, rather than an ongoing steering committee — proportionate to project size.
@@ -21,7 +21,7 @@ N/A at current governance maturity (no sponsor). If introduced: one review at Ch
 N/A — no working group currently exists. The Stakeholder Register's Medium/High-influence rows (WAPHA, Dept of Health) would be the natural working-group membership if this were activated.
 
 ## Delivery team cadence
-Solo delivery — no team cadence required. [Contrast with JobSearchCopilot, this author's sibling initiative, which does run a 2-week-sprint Scrum-lite cadence because it has a multi-person team; this project does not currently have one.] Self-imposed checkpoint: review progress against the Charter's M1–M4 milestones at each work session, since there's no external accountability forcing it.
+Solo delivery — no team cadence required. Self-imposed checkpoint: review progress against the Charter's M1–M4 milestones at each work session, since there's no external accountability forcing it.
 
 ## Escalation path
 1. Data/methodology issue (e.g. suppression blocking a planned breakdown) → resolved by PO/BA directly, logged in `02_risk_register.md`.
@@ -42,7 +42,7 @@ Given solo delivery, formal status reports are disproportionate. Recommended lig
 | Researchers / students / portfolio reviewers | Full repo, including notebooks | Continuously (public repo) | GitHub |
 
 ## RAID management approach
-Consolidated RAID summary lives in `05_project_charter.md`; the full Risk detail lives in `02_risk_register.md`. No separate RAID log tool — proportionate to project scale; would move to a tracked backlog (GitHub Issues/Projects, matching the JobSearchCopilot convention) if this project ever gains a second contributor.
+Consolidated RAID summary lives in `05_project_charter.md`; the full Risk detail lives in `02_risk_register.md`. No separate RAID log tool — proportionate to project scale; would move to a tracked backlog (GitHub Issues/Projects) if this project ever gains a second contributor.
 
 ## Change control approach
 Any change to authorised scope (Charter §Scope/Out of scope) — most notably any move toward Business Case Option 2 (dashboard) or Option 3 (ongoing monitoring) — requires a Charter amendment, not an informal decision. This is the single governance rule this plan most wants enforced, directly because R-06 (scope creep instead of finishing Option 1) is rated the highest-priority open risk.

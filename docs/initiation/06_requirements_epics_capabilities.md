@@ -67,7 +67,7 @@
 |---|---|---|---|---|
 | ID-01 | Multi-workbook parsing | Handle 17 + 8 + 9 `.xlsx` tables across 3 archives with differing internal layouts | High | Confirmed via direct inspection of `data_raw/` |
 | ID-02 | Geographic key alignment | Standardise PHN/state identifiers across National, State/Territory, and PHN-modelled sources | High | [OPEN QUESTION] not yet verified whether naming is consistent |
-| ID-03 | External system integration | None required for Option 1 (static report) | N/A | Explicitly out of scope — unlike JobSearchCopilot's Adzuna API dependency, this project has no live external data dependency |
+| ID-03 | External system integration | None required for Option 1 (static report) — all data is static, aggregate, publicly-sourced files, no live external API dependency | N/A | Explicitly out of scope |
 
 ## 8. Epic List (delivery backlog — net new)
 

@@ -7,7 +7,7 @@
 | **Project title** | The Mental Health Treatment Gap in Western Australia |
 | **Sponsor** | [TO BE CONFIRMED — no real sponsor exists; project is self-directed] |
 | **Product Owner / BA** | Vy Nguyen |
-| **Delivery approach** | Solo/part-time, iterative — one analyst executing BA and DA roles across a single sequential phase plan (not a multi-person Agile team on this repo, unlike the sibling JobSearchCopilot initiative) |
+| **Delivery approach** | Solo/part-time, iterative — one analyst executing BA and DA roles across a single sequential phase plan (not a multi-person Agile team) |
 
 ## Background
 See `03_problem_statement_change_request.md` and `04_business_case.md`. Discovery phase complete; this charter authorises Phase 2/3 delivery (Business Case Option 1).
@@ -59,7 +59,7 @@ See `08_governance_communication_plan.md` for cadence and escalation detail. Sum
 
 | Type | ID | Description | Owner | Status |
 |---|---|---|---|---|
-| Risk | R-01 to R-09 | See `02_risk_register.md` in full | PO/BA | Open (8), Accepted (1) |
+| Risk | R-01 to R-09 | See `02_risk_register.md` in full | PO/BA | Open (8), Accepted (1) — 9 risks total |
 | Assumption | A-1 | Modelled NSMHW estimates are reliable enough for cross-region comparison | PO/BA | Accepted, per `../02_scope_and_assumptions.md` |
 | Assumption | A-2 | Treatment gap (need − service use) is a reasonable, if imperfect, proxy for unmet need | PO/BA | Accepted with caveat (R-05) |
 | Assumption | A-3 | PHN/remoteness classifications adequately capture metro/rural access differences | PO/BA | Accepted, pending Phase 2 validation |
