@@ -92,6 +92,10 @@ Planned BA extension documents
 - Phase 2 (planned): Data ingestion, cleaning, and exploratory analysis for WA and comparison regions.
 - Phase 3 (planned): Visualisation, synthesis, and generation of recommendations.
 
+## Project initiation pack
+
+`docs/initiation/` holds the formal delivery-governance pack (business case, project charter, stakeholder and risk registers, requirements/epics, current/future state, and governance & communications plan) that authorises and scopes Phase 2/3 above. Start with `docs/initiation/00_initiative_one_pager.md`. This pack builds on — and does not replace — the discovery documents in `docs/01`–`06` above; each initiation document cites which parts are confirmed from the existing analysis versus newly drafted.
+
 ## Intended audience
 
 - Health system decision makers involved in policy, commissioning, and service planning.
