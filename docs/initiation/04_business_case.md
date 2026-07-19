@@ -38,13 +38,13 @@ No dollar budget applies — this is unsponsored, solo, part-time delivery (cons
 See `02_risk_register.md` in full. Most relevant to this recommendation: R-01 (modelled-estimate uncertainty), R-02 (small-cell suppression may limit planned granularity), R-06 (scope creep risk if Option 2 is pursued prematurely).
 
 ## Dependencies
-- Successful extraction/parsing of the `.xlsx` tables inside `data_raw/*.zip` (not yet attempted).
+- Successful extraction/parsing of the `.xlsx` tables inside `data_raw/*.zip` — **done, Sprint 1**: both source schemas parsed correctly across all 34 files, verified against manual spot-checks.
 - Resolution of R-02 (confirm what granularity the source data actually supports) before BR-03's priority-population analysis can be finalised.
 - No external dependency — no other team, system, or approval currently blocks starting Phase 2.
 
 ## Success measures / KPIs
-- `data_processed/wa_treatment_gap_summary.csv` exists and is populated (binary — currently not met).
-- All three planned notebooks (`01_data_ingestion_wa`, `02_treatment_gap_analysis`, `03_barrier_analysis`) exist and run end-to-end.
+- `data_processed/national_state_indicators.csv` + `phn_modelled_indicators.csv` exist and are populated — **met, Sprint 1** (73,132 rows combined, zero nulls). The originally-envisioned single `wa_treatment_gap_summary.csv` is now planned as a Sprint 2/Epic H2 output, computed from these two intermediate files rather than produced directly by ingestion — the two source schemas differ enough that forcing them into one file at the ingestion stage would have lost fidelity.
+- All three planned notebooks (`01_data_ingestion_wa`, `02_treatment_gap_analysis`, `03_barrier_analysis`) exist and run end-to-end — `01_data_ingestion_wa` met (Sprint 1); the other two are scheduled Sprints 2–4.
 - Recommendation report identifies at least 2 priority regions/populations with linked evidence (per BR-03/BR-04 acceptance criteria, already defined in `../04_business_requirements.md`).
 - [Portfolio KPI] A reviewer (recruiter/hiring manager) can trace a single finding from raw data → notebook → processed table → report claim without gaps.
 

@@ -37,14 +37,16 @@ Healthcare/
 │  ├─ Mental-health-tables-State-and-territory.zip
 │  └─ Modelled-estimates-from-NSMHW-by-PHN.zip
 ├─ data_processed/
-│  └─ wa_treatment_gap_summary.csv
+│  ├─ national_state_indicators.csv    ✅ Sprint 1 output (24,865 rows)
+│  └─ phn_modelled_indicators.csv      ✅ Sprint 1 output (48,267 rows)
+│     (a unified wa_treatment_gap_summary.csv, computed from the two files above, is a Sprint 2/Epic H2 output — not built yet)
 ├─ docs/
 │  ├─ 01_problem_statement.md          ✅ committed
 │  ├─ 02_scope_and_assumptions.md      ✅ committed
 │  ├─ 03_stakeholder_analysis.md       ✅ committed
 │  ├─ 04_business_requirements.md      ✅ committed
 │  ├─ 05_data_sources_and_questions.md ✅ committed
-│  ├─ 06_as_is_process.md              ✅ committed
+│  ├─ 06_as-is_process.md              ✅ committed
 │  ├─ 07_gap_analysis.md               🟡 stub — content scheduled Sprint 4
 │  ├─ 08_solution_requirements.md      🟡 stub — content scheduled Sprint 4
 │  ├─ 09_use_cases.md                  🟡 stub — content scheduled Sprint 5
@@ -75,7 +77,7 @@ Healthcare/
 
 `docs/05_data_sources_and_questions.md` – maps business requirements to analytical questions and supporting data sources.
 
-`docs/06_as_is_process.md` – describes the current-state process through which people in WA seek and access mental health care.
+`docs/06_as-is_process.md` – describes the current-state process through which people in WA seek and access mental health care.
 
 Planned BA extension documents
 `docs/07_gap_analysis.md` – will compare the current state to the desired future state and identify major business and service gaps.

@@ -112,7 +112,7 @@ Data from the sources above will be transformed into:
 - Exploratory and analytical notebooks in `notebooks/` documenting ingestion and analysis steps.
 - Summary tables and visualisations embedded in `reports/` to support recommendations.
 
-Processing steps will be described in `06_solution_approach.md` and referenced within notebooks.
+Processing steps are documented directly in `../notebooks/01_data_ingestion_wa.ipynb` (§H1.1–H1.5) rather than a separate `06_solution_approach.md` — that filename was never created; the sixth document in this folder covers the AS-IS process instead (`06_as-is_process.md`). Corrected here since the original reference pointed nowhere.
 
 ---
 

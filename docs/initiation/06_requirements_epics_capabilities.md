@@ -73,14 +73,14 @@
 
 Maps the capabilities above into buildable increments for Phase 2/3, per the Project Charter's authorised scope (Option 1 only; Epic H7 is logged but not authorised).
 
-| Epic | Covers | Authorised by charter? |
-|---|---|---|
-| **H1 — Data Ingestion & Processing Pipeline** | FC-01, ID-01, ID-02 | Yes |
-| **H2 — Treatment-Gap Metric Computation** | FC-02 | Yes |
-| **H3 — Regional & Demographic Comparative Reporting** | FC-03, RA-01–03 | Yes |
-| **H4 — Priority Population & Barrier Analysis** | FC-04, BR-03 | Yes |
-| **H5 — Recommendation Report & Executive Summary** | FC-05, RA-04, BR-04 | Yes |
-| **H6 — Documentation & Reproducibility** | NFR-01, NFR-04, BR-05 | Yes |
-| **H7 — Interactive Dashboard** *(stretch)* | RA-05 | **No — Business Case Option 2, not current charter scope** |
+| Epic | Covers | Authorised by charter? | Status |
+|---|---|---|---|
+| **H1 — Data Ingestion & Processing Pipeline** | FC-01, ID-01, ID-02 | Yes | ✅ Complete (Sprint 1) |
+| **H2 — Treatment-Gap Metric Computation** | FC-02 | Yes | Not started (Sprint 2) |
+| **H3 — Regional & Demographic Comparative Reporting** | FC-03, RA-01–03 | Yes | Not started (Sprint 3) |
+| **H4 — Priority Population & Barrier Analysis** | FC-04, BR-03 | Yes | Not started (Sprint 3-4) |
+| **H5 — Recommendation Report & Executive Summary** | FC-05, RA-04, BR-04 | Yes | Not started (Sprint 4-5) |
+| **H6 — Documentation & Reproducibility** | NFR-01, NFR-04, BR-05 | Yes | Not started (Sprint 5) |
+| **H7 — Interactive Dashboard** *(stretch)* | RA-05 | **No — Business Case Option 2, not current charter scope** | Not authorised |
 
 Suggested build order: H1 → H2 → H3 → H4 → H5, with H6 (documentation) running continuously rather than as a discrete final step, matching how `docs/` has already been maintained well throughout discovery.

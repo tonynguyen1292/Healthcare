@@ -18,7 +18,7 @@
 - **High influence + high impact** (Dept of Health, WAPHA/PHNs) are the two groups this initiative should formally engage before publishing any findings — in a real engagement these would sit on a steering or working group (see `08_governance_communication_plan.md`).
 - Community NGOs sit at medium influence because they can shape how findings are used for advocacy, but don't control funding or commissioning decisions directly.
 - GPs and researchers are lower-influence audiences for this artifact's *primary* purpose (informing planning) but the researchers/students row matters for the *secondary* purpose (demonstrating a reusable hybrid BA/DA method).
-- The "recruiters/hiring managers" row is unconventional for a stakeholder register but is explicitly named as an audience in `../README.md` and `../01_problem_statement.md` intended-audience sections — including it here keeps the register honest about the project's dual purpose rather than pretending it's purely a commissioned engagement.
+- The "recruiters/hiring managers" row is unconventional for a stakeholder register but is explicitly named as an audience in `../../README.md` and `../01_problem_statement.md` intended-audience sections — including it here keeps the register honest about the project's dual purpose rather than pretending it's purely a commissioned engagement.
 
 ## Gaps requiring validation
 

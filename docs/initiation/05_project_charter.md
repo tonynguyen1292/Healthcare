@@ -26,8 +26,8 @@ As per `03_problem_statement_change_request.md` §Out of scope, plus: any dashbo
 
 ## Deliverables
 - `docs/07_gap_analysis.md`, `docs/08_solution_requirements.md`, `docs/09_use_cases.md` (already named in README roadmap)
-- `notebooks/01_data_ingestion_wa.ipynb`, `02_treatment_gap_analysis.ipynb`, `03_barrier_analysis.ipynb`
-- `data_processed/wa_treatment_gap_summary.csv`
+- `notebooks/01_data_ingestion_wa.ipynb` ✅ done, `02_treatment_gap_analysis.ipynb`, `03_barrier_analysis.ipynb`
+- `data_processed/national_state_indicators.csv` + `phn_modelled_indicators.csv` ✅ done (Sprint 1); a combined `wa_treatment_gap_summary.csv` is a Sprint 2 (Epic H2) output computed from these
 - `reports/01_findings_and_recommendations.md`, `02_executive_summary.md`
 
 ## Milestones
