@@ -43,20 +43,23 @@ Healthcare/
 │  ├─ 04_business_requirements.md      ✅ committed
 │  ├─ 05_data_sources_and_questions.md ✅ committed
 │  ├─ 06_as_is_process.md              ✅ committed
-│  ├─ 07_gap_analysis.md               🔲 to commit
-│  ├─ 08_solution_requirements.md      🔲 to commit
-│  └─ 09_use_cases.md                  🔲 to commit
+│  ├─ 07_gap_analysis.md               🟡 stub — content scheduled Sprint 4
+│  ├─ 08_solution_requirements.md      🟡 stub — content scheduled Sprint 4
+│  ├─ 09_use_cases.md                  🟡 stub — content scheduled Sprint 5
+│  └─ initiation/                      ✅ committed — PO/BA delivery-governance pack, see below
 ├─ notebooks/
-│  ├─ 01_data_ingestion_wa.ipynb
-│  ├─ 02_treatment_gap_analysis.ipynb
-│  └─ 03_barrier_analysis.ipynb
+│  ├─ 01_data_ingestion_wa.ipynb       🟡 stub — Epic H1, Sprints 1-2
+│  ├─ 02_treatment_gap_analysis.ipynb  🟡 stub — Epics H2-H3, Sprints 2-3
+│  └─ 03_barrier_analysis.ipynb        🟡 stub — Epic H4, Sprints 3-4
 ├─ reports/
-│  ├─ 01_findings_and_recommendations.md
-│  ├─ 02_executive_summary.md
-│  └─ 03_dashboard_spec.md             
+│  ├─ 01_findings_and_recommendations.md 🟡 stub — Sprint 4
+│  ├─ 02_executive_summary.md            🟡 stub — Sprint 4-5
+│  └─ 03_dashboard_spec.md             🔲 not started — stretch scope only, not authorised by current charter
 ├─ .gitignore
 └─ README.md
 ```
+
+🟡 stub = file exists with planned structure and sprint reference, content not yet written — see `docs/initiation/09_delivery_plan_sprints.md` for the sprint-by-sprint plan.
 
 ## Key documentation
 
