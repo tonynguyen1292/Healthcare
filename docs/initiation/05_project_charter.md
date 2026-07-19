@@ -31,15 +31,15 @@ As per `03_problem_statement_change_request.md` §Out of scope, plus: any dashbo
 - `reports/01_findings_and_recommendations.md`, `02_executive_summary.md`
 
 ## Milestones
-| Milestone | Deliverable | Status |
-|---|---|---|
-| M0 | This initiation pack (`docs/initiation/`) | **Complete** |
-| M1 | Data ingestion notebook + `data_processed/` populated | Not started |
-| M2 | Treatment-gap and barrier-analysis notebooks complete | Not started |
-| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | Not started |
-| M4 | Recommendation report + executive summary published | Not started |
+| Milestone | Deliverable | Target | Status |
+|---|---|---|---|
+| M0 | This initiation pack (`docs/initiation/`) | — | **Complete** |
+| M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4) | Not started |
+| M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2 (week 4) | Not started |
+| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 4 (week 8) | Not started |
+| M4 | Recommendation report + executive summary published | End of Sprint 5 (week 10) | Not started |
 
-[TO BE CONFIRMED: target dates — no deadline currently exists for any milestone.]
+Target dates assume solo delivery at ~7 hrs/week starting immediately — see `09_delivery_plan_sprints.md` for the full sprint-by-sprint breakdown, work-item estimates, and sensitivity to actual weekly capacity.
 
 ## Assumptions
 See `03_problem_statement_change_request.md` §Assumptions (carried forward unchanged).
