@@ -107,13 +107,15 @@ Full derivation, verified row counts, and known limitations: `notebooks/01_data_
 
 ### Roadmap
 
+Dates use Australian day/month/year format.
+
 | Sprint | Dates | Focus | Status |
 |---|---|---|---|
-| 1 | 2026-07-20 – 2026-08-02 | Data ingestion parsers (National/State + PHN-modelled schemas) | ✅ Complete |
-| 2 | 2026-08-03 – 2026-08-16 | Standardised output, data-quality checks, treatment-gap computation | Not started |
-| 3 | 2026-08-17 – 2026-08-30 | Regional/demographic comparative reporting, priority-population thresholds | Not started |
-| 4 | 2026-08-31 – 2026-09-13 | Barrier analysis, gap analysis & solution-requirements docs, report drafting | Not started |
-| 5 | 2026-09-14 – 2026-09-27 | Final report, executive summary, documentation pass | Not started |
+| 1 | 13/07/2026 – 26/07/2026 | Data ingestion parsers (National/State + PHN-modelled schemas) | ✅ Complete (all of H1.1–H1.5, delivered within week 1 of the sprint) |
+| 2 | 27/07/2026 – 09/08/2026 | Treatment-gap computation (H1.4/H1.5 already done — see Sprint 1) | Not started |
+| 3 | 10/08/2026 – 23/08/2026 | Regional/demographic comparative reporting, priority-population thresholds | Not started |
+| 4 | 24/08/2026 – 06/09/2026 | Barrier analysis, gap analysis & solution-requirements docs, report drafting | Not started |
+| 5 | 07/09/2026 – 20/09/2026 | Final report, executive summary, documentation pass | Not started |
 
 Full work-item breakdown, hour estimates, and planning assumptions: `docs/initiation/09_delivery_plan_sprints.md`.
 

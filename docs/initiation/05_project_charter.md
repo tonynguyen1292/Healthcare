@@ -31,15 +31,18 @@ As per `03_problem_statement_change_request.md` §Out of scope, plus: any dashbo
 - `reports/01_findings_and_recommendations.md`, `02_executive_summary.md`
 
 ## Milestones
+
+Dates use Australian day/month/year format. Sprint 1 runs 13/07/2026–26/07/2026 — anchored to the Monday of the week delivery actually started, not the following Monday, so milestone claims stay chronologically consistent with the calendar rather than claiming work finished before its own sprint window began.
+
 | Milestone | Deliverable | Target | Status |
 |---|---|---|---|
 | M0 | This initiation pack (`docs/initiation/`) | — | **Complete** |
-| M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4) | **Complete — delivered end of Sprint 1**, ahead of target (H1.4/H1.5 completed alongside H1.1-H1.3 rather than split across two sprints) |
-| M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2 (week 4) | Not started |
-| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 4 (week 8) | Not started |
-| M4 | Recommendation report + executive summary published | End of Sprint 5 (week 10) | Not started |
+| M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4, by 09/08/2026) | **Complete — delivered 19/07/2026**, within week 1 of Sprint 1, well ahead of target (H1.4/H1.5 completed alongside H1.1-H1.3 rather than split across two sprints) |
+| M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2 (week 4, by 09/08/2026) | Not started |
+| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 4 (week 8, by 06/09/2026) | Not started |
+| M4 | Recommendation report + executive summary published | End of Sprint 5 (week 10, by 20/09/2026) | Not started |
 
-Target dates assume solo delivery at ~7 hrs/week starting immediately — see `09_delivery_plan_sprints.md` for the full sprint-by-sprint breakdown, work-item estimates, and sensitivity to actual weekly capacity.
+Target dates assume solo delivery at ~7 hrs/week starting 13/07/2026 — see `09_delivery_plan_sprints.md` for the full sprint-by-sprint breakdown, work-item estimates, and sensitivity to actual weekly capacity.
 
 ## Assumptions
 See `03_problem_statement_change_request.md` §Assumptions (carried forward unchanged).

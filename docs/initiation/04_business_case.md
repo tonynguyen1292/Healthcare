@@ -12,7 +12,7 @@ See `03_problem_statement_change_request.md`. In short: strong discovery, zero d
 [INFERRED] Aligns with WA and national mental health policy priorities around equitable access, particularly for rural/remote communities — a long-standing, publicly documented policy concern in WA (regional health access generally, and mental health specifically). [TO BE CONFIRMED against any specific current WA Health or Mental Health Commission strategic plan if this is ever run as a real engagement; no such document is currently referenced in the repo.]
 
 ## Current state summary
-Discovery complete (`docs/01`–`06`). No data processed. No report exists. Repository has been dormant for ~3 weeks (last commit 2026-06-27). This is a portfolio-stage case study, not a funded or sponsored initiative — see R-07.
+Discovery complete (`docs/01`–`06`). Repository was dormant for ~3 weeks (last commit 27/06/2026) before this delivery initiative began. This is a portfolio-stage case study, not a funded or sponsored initiative — see R-07.
 
 ## Options considered
 

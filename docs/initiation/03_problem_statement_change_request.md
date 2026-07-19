@@ -21,7 +21,7 @@ There is a significant, currently unquantified-for-WA-planning-purposes gap betw
 State health policymakers, WAPHA/PHN regional planners, community mental health NGOs, GPs/primary care, and — per this project's dual purpose — the researchers/students and portfolio-evaluator audiences named in the README. Full detail: `01_stakeholder_register.md`.
 
 ## Why now
-[INFERRED] No externally-imposed deadline exists — this is a self-directed initiative. The practical "why now" is that discovery work is complete and sitting idle (last repo commit 2026-06-27); further delay risks the existing high-quality problem framing going stale without ever producing an output. [TO BE CONFIRMED if a real sponsor/deadline is ever attached.]
+[INFERRED] No externally-imposed deadline exists — this is a self-directed initiative. The practical "why now" is that discovery work is complete and sitting idle (last repo commit 27/06/2026); further delay risks the existing high-quality problem framing going stale without ever producing an output. [TO BE CONFIRMED if a real sponsor/deadline is ever attached.]
 
 ## Desired outcome
 A decision-ready recommendation report (and possibly a lightweight dashboard — see Business Case §Options) that: quantifies the WA treatment gap overall and by PHN, identifies priority regions/populations, and gives evidence-linked recommendations mapped to responsible stakeholder groups. [CONFIRMED — matches `../01_problem_statement.md` success criteria]

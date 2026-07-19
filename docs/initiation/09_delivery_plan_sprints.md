@@ -65,15 +65,17 @@
 
 ## Sprint plan (5 sprints × 2 weeks = 10 weeks, at 7 hrs/week)
 
-| Sprint | Weeks | Contents | Hours | Sprint goal / Definition of Done |
-|---|---|---|---|---|
-| **1** | 1–2 | H1.1, H1.2, H1.3 | 11 | Both parsers run against one sample file each from their respective schemas; geographic keys reconciled |
-| **2** | 3–4 | H1.4, H1.5, H2.1, H2.2, H2.3 | 13 | `data_processed/wa_treatment_gap_summary.csv` exists and is populated with uncertainty bounds attached — **Charter Milestone M1 + M2 both close here** |
-| **3** | 5–6 | H3.1, H3.2, H3.3, H4.1 | 14 | Benchmark and PHN comparison views complete; priority shortlist drafted |
-| **4** | 7–8 | H4.2, H5.1, H5.2, H5.3 | 14 | `07_gap_analysis.md`, `08_solution_requirements.md`, and both report drafts exist — **Charter Milestone M3 closes here** |
-| **5** | 9–10 | H5.4, H6.1, H6.2, H6.3, contingency buffer | ~7 used + buffer | Safe-messaging review complete, notebooks documented, README current — **Charter Milestone M4 closes here, project done** |
+Dates use Australian day/month/year format. Sprint 1 is anchored to the Monday of the week the work actually started (13/07/2026), not the Monday after — so "Sprint 1 complete" and "today's date" stay consistent with each other rather than claiming a sprint finished before its own calendar window began.
 
-Buffer is deliberately concentrated in Sprint 5 rather than spread evenly — early sprints hit unknowns (a header format that parses differently than expected) that create rework demand later, so back-loading slack is more realistic than pretending every sprint is equally predictable.
+| Sprint | Dates | Weeks | Contents | Hours | Status | Sprint goal / Definition of Done |
+|---|---|---|---|---|---|---|
+| **1** | 13/07/2026 – 26/07/2026 | 1–2 | H1.1, H1.2, H1.3, H1.4, H1.5 (all of Epic H1 — H1.4/H1.5 finished ahead of their original Sprint 2 slot) | 15 | ✅ Complete, delivered within week 1 (by 19/07/2026) | `data_processed/national_state_indicators.csv` + `phn_modelled_indicators.csv` exist and are populated with verified row counts — **Charter Milestone M1 closes here** |
+| **2** | 27/07/2026 – 09/08/2026 | 3–4 | H2.1, H2.2, H2.3 (H1.4/H1.5 already done — see Sprint 1) | 9 | Not started | Treatment-gap metrics computed with uncertainty bounds attached — **Charter Milestone M2 closes here** |
+| **3** | 10/08/2026 – 23/08/2026 | 5–6 | H3.1, H3.2, H3.3, H4.1 | 14 | Not started | Benchmark and PHN comparison views complete; priority shortlist drafted |
+| **4** | 24/08/2026 – 06/09/2026 | 7–8 | H4.2, H5.1, H5.2, H5.3 | 14 | Not started | `07_gap_analysis.md`, `08_solution_requirements.md`, and both report drafts exist — **Charter Milestone M3 closes here** |
+| **5** | 07/09/2026 – 20/09/2026 | 9–10 | H5.4, H6.1, H6.2, H6.3, contingency buffer | ~7 used + buffer | Not started | Safe-messaging review complete, notebooks documented, README current — **Charter Milestone M4 closes here, project done** |
+
+Buffer is deliberately concentrated in Sprint 5 rather than spread evenly — early sprints hit unknowns (a header format that parses differently than expected) that create rework demand later, so back-loading slack is more realistic than pretending every sprint is equally predictable. Sprint 2 now carries less than its original planned load (9 hrs vs. 13) since H1.4/H1.5 landed early in Sprint 1 — that slack is intentionally left unallocated rather than speculatively pulling Sprint 3 work forward.
 
 ## Total time estimate
 

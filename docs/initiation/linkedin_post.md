@@ -2,6 +2,8 @@
 
 *Plain text below is written for direct copy-paste into LinkedIn (no markdown syntax will render there). Repo confirmed publicly visible before linking.*
 
+*Superseded by `linkedin_post_sprint1.md` — this draft predicted "Sprint 1-2" for data ingestion; in practice all of Epic H1 finished within Sprint 1. Left as-is below rather than edited, since it's a dated snapshot of the plan at the time, not a living document — post the newer draft instead if choosing one.*
+
 ---
 
 Turning a self-directed case study into a properly scoped delivery initiative this week — sharing what that looked like end to end.
