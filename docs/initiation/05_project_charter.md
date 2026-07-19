@@ -34,7 +34,7 @@ As per `03_problem_statement_change_request.md` §Out of scope, plus: any dashbo
 | Milestone | Deliverable | Target | Status |
 |---|---|---|---|
 | M0 | This initiation pack (`docs/initiation/`) | — | **Complete** |
-| M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4) | Not started |
+| M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4) | **Complete — delivered end of Sprint 1**, ahead of target (H1.4/H1.5 completed alongside H1.1-H1.3 rather than split across two sprints) |
 | M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2 (week 4) | Not started |
 | M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 4 (week 8) | Not started |
 | M4 | Recommendation report + executive summary published | End of Sprint 5 (week 10) | Not started |

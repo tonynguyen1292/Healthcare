@@ -50,7 +50,7 @@ Healthcare/
 │  ├─ 09_use_cases.md                  🟡 stub — content scheduled Sprint 5
 │  └─ initiation/                      ✅ committed — PO/BA delivery-governance pack, see below
 ├─ notebooks/
-│  ├─ 01_data_ingestion_wa.ipynb       🟡 stub — Epic H1, Sprints 1-2
+│  ├─ 01_data_ingestion_wa.ipynb       ✅ Sprint 1 complete — Epic H1, verified against real data
 │  ├─ 02_treatment_gap_analysis.ipynb  🟡 stub — Epics H2-H3, Sprints 2-3
 │  └─ 03_barrier_analysis.ipynb        🟡 stub — Epic H4, Sprints 3-4
 ├─ reports/
@@ -85,27 +85,35 @@ Planned BA extension documents
 `docs/09_use_cases.md` – will describe how specific stakeholders would use the project outputs for planning and decision-making.
 
 ## Analytical and reporting outputs
-`notebooks/` – exploratory and targeted analytical workflow supporting the case study. Structure and sprint mapping exist now (stubs); analysis code lands sprint by sprint per the roadmap above.
+`notebooks/` – exploratory and targeted analytical workflow supporting the case study. `01_data_ingestion_wa.ipynb` is complete and verified (Sprint 1); the rest land sprint by sprint per the roadmap above.
 
-`data_processed/` – cleaned outputs used to quantify treatment gap indicators. Empty until Sprint 1-2 (Epic H1) runs.
+`data_processed/` – cleaned outputs used to quantify treatment gap indicators. `national_state_indicators.csv` (24,865 rows) and `phn_modelled_indicators.csv` (48,267 rows) exist as of Sprint 1 — see data dictionary below.
 
 `reports/` – final findings, recommendations, and executive summary. Structure exists now (stubs); content lands in Sprint 4-5.
+
+### Data dictionary — Sprint 1 output
+
+**`national_state_indicators.csv`** (National + State/Territory sources): `table_id`, `geography`, `category`, `item`, `sex`, `age_group`, `metric_type` (estimate/rse/proportion/moe), `value`, `source_file`.
+
+**`phn_modelled_indicators.csv`** (PHN-modelled sources): `indicator`, `sub_indicator` (severity/self-harm/suicidal-thoughts/service-use files only), `sex`, `phn_code`, `phn_name`, `age_band`, `metric_name`, `unit`, `value`. Covers all 31 official Australian PHNs.
+
+Full derivation, verified row counts, and known limitations: `notebooks/01_data_ingestion_wa.ipynb` (§H1.5).
 
 ## Current status
 
 - **Phase 1 — Discovery: complete.** Problem statement, scope, stakeholder analysis, business requirements, and data-source mapping (`docs/01`–`06`) are drafted and stable.
 - **Phase 1.5 — Initiation: complete.** `docs/initiation/` adds the formal delivery-governance pack (business case, project charter, stakeholder and risk registers, requirements/epics, current/future state, and governance & communications plan) that authorises and scopes Phase 2/3.
-- **Phase 2/3 — Delivery: scheduled, not yet started.** `notebooks/`, `reports/`, and the remaining `docs/07`–`09` files exist as labelled stubs matching the plan below — no analysis has run yet.
+- **Phase 2/3 — Delivery: in progress.** Sprint 1 (Epic H1, data ingestion) is complete and verified. `reports/` and the remaining `docs/07`–`09` files are still labelled stubs matching the plan below.
 
 ### Roadmap
 
-| Sprint | Dates | Focus |
-|---|---|---|
-| 1 | 2026-07-20 – 2026-08-02 | Data ingestion parsers (National/State + PHN-modelled schemas) |
-| 2 | 2026-08-03 – 2026-08-16 | Standardised output, data-quality checks, treatment-gap computation |
-| 3 | 2026-08-17 – 2026-08-30 | Regional/demographic comparative reporting, priority-population thresholds |
-| 4 | 2026-08-31 – 2026-09-13 | Barrier analysis, gap analysis & solution-requirements docs, report drafting |
-| 5 | 2026-09-14 – 2026-09-27 | Final report, executive summary, documentation pass |
+| Sprint | Dates | Focus | Status |
+|---|---|---|---|
+| 1 | 2026-07-20 – 2026-08-02 | Data ingestion parsers (National/State + PHN-modelled schemas) | ✅ Complete |
+| 2 | 2026-08-03 – 2026-08-16 | Standardised output, data-quality checks, treatment-gap computation | Not started |
+| 3 | 2026-08-17 – 2026-08-30 | Regional/demographic comparative reporting, priority-population thresholds | Not started |
+| 4 | 2026-08-31 – 2026-09-13 | Barrier analysis, gap analysis & solution-requirements docs, report drafting | Not started |
+| 5 | 2026-09-14 – 2026-09-27 | Final report, executive summary, documentation pass | Not started |
 
 Full work-item breakdown, hour estimates, and planning assumptions: `docs/initiation/09_delivery_plan_sprints.md`.
 
