@@ -31,6 +31,8 @@ Solo delivery — no team cadence required. Self-imposed checkpoint: review prog
 ## Status reporting approach
 Given solo delivery, formal status reports are disproportionate. Recommended lightweight approach: keep the Charter's milestone table (`05_project_charter.md`) up to date as the single source of truth on progress, rather than maintaining a separate status report artifact.
 
+**Exception, applied 21/07/2026**: when a capacity/timeline assumption changes materially (here: this project became secondary to WA_Mining, extending the plan from 5 to 8 sprints), an update-the-table approach isn't enough — stakeholders need an active communication, not a passive document they'd have to go looking for. See `stakeholder_communication_phase2.md` for that specific instance. This is a deliberate, one-off exception to the general policy above, not a reversal of it — routine progress still just lives in the milestone table.
+
 ## Stakeholder communication matrix
 
 | Stakeholder | What they receive | When | Channel |
@@ -40,6 +42,7 @@ Given solo delivery, formal status reports are disproportionate. Recommended lig
 | Community NGOs | Executive summary | At publication | [TO BE CONFIRMED] |
 | GPs / primary care | Short summary only | At publication | [TO BE CONFIRMED] |
 | Researchers / students / portfolio reviewers | Full repo, including notebooks | Continuously (public repo) | GitHub |
+| All of the above | Interim commitment update (Sprint 2 start date + revised timeline) | 21/07/2026, ad hoc — triggered by the capacity change, not a recurring cadence | `stakeholder_communication_phase2.md` |
 
 ## RAID management approach
 Consolidated RAID summary lives in `05_project_charter.md`; the full Risk detail lives in `02_risk_register.md`. No separate RAID log tool — proportionate to project scale; would move to a tracked backlog (GitHub Issues/Projects) if this project ever gains a second contributor.

@@ -106,18 +106,22 @@ Full derivation, verified row counts, and known limitations: `notebooks/01_data_
 - **Phase 1 — Discovery: complete.** Problem statement, scope, stakeholder analysis, business requirements, and data-source mapping (`docs/01`–`06`) are drafted and stable.
 - **Phase 1.5 — Initiation: complete.** `docs/initiation/` adds the formal delivery-governance pack (business case, project charter, stakeholder and risk registers, requirements/epics, current/future state, and governance & communications plan) that authorises and scopes Phase 2/3.
 - **Phase 2/3 — Delivery: in progress.** Sprint 1 (Epic H1, data ingestion) is complete and verified. `reports/` and the remaining `docs/07`–`09` files are still labelled stubs matching the plan below.
+- **Secondary priority as of 21/07/2026** — this project now runs behind WA_Mining, at reduced (~4 hrs/week) capacity. Timeline revised accordingly (see roadmap below); Sprint 2's start date remains a firm commitment — see `docs/initiation/stakeholder_communication_phase2.md`.
 
 ### Roadmap
 
-Dates use Australian day/month/year format.
+Dates use Australian day/month/year format. Revised 21/07/2026 — extended from 5 to 8 sprints to reflect reduced weekly capacity; total scope/hours unchanged.
 
 | Sprint | Dates | Focus | Status |
 |---|---|---|---|
 | 1 | 13/07/2026 – 26/07/2026 | Data ingestion parsers (National/State + PHN-modelled schemas) | ✅ Complete (all of H1.1–H1.5, delivered within week 1 of the sprint) |
-| 2 | 27/07/2026 – 09/08/2026 | Treatment-gap computation (H1.4/H1.5 already done — see Sprint 1) | Not started |
-| 3 | 10/08/2026 – 23/08/2026 | Regional/demographic comparative reporting, priority-population thresholds | Not started |
-| 4 | 24/08/2026 – 06/09/2026 | Barrier analysis, gap analysis & solution-requirements docs, report drafting | Not started |
-| 5 | 07/09/2026 – 20/09/2026 | Final report, executive summary, documentation pass | Not started |
+| 2 | 27/07/2026 – 09/08/2026 | Treatment-gap computation | **Committed start date** |
+| 3 | 10/08/2026 – 23/08/2026 | Benchmark table/chart + PHN comparison view | Not started |
+| 4 | 24/08/2026 – 06/09/2026 | Demographic breakdown + priority-population threshold | Not started |
+| 5 | 07/09/2026 – 20/09/2026 | Barrier narrative + gap analysis doc | Not started |
+| 6 | 21/09/2026 – 04/10/2026 | Solution-requirements doc + report drafts | Not started |
+| 7 | 05/10/2026 – 18/10/2026 | Safe-messaging review, documentation, use-cases doc | Not started |
+| 8 | 19/10/2026 – 01/11/2026 | Contingency buffer — project complete | Not started |
 
 Full work-item breakdown, hour estimates, and planning assumptions: `docs/initiation/09_delivery_plan_sprints.md`.
 

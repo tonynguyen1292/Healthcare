@@ -4,10 +4,12 @@
 
 ## Planning assumptions [state these explicitly — adjust and re-run the math if wrong]
 
-- **Solo delivery**, ~6–8 hours/week (midpoint 7 used below). This is a working assumption, not confirmed capacity — see sensitivity table at the end.
-- **2-week sprints** — long enough for a solo, part-time contributor to complete meaningful, demonstrable work each sprint, short enough to keep momentum and catch estimate drift early.
-- Estimates below are grounded in the actual data structure inspected directly (see chat response) — two distinct parser schemas, uncertainty data (RSE/MoE/RRMSE/CI) present and to be carried through, messy multi-row publication headers.
+- **This project is now secondary to WA_Mining (confirmed 21/07/2026).** Vy's primary time commitment sits elsewhere; Healthcare gets whatever's left. Capacity assumption revised down accordingly — see below. This is Risk R-09 (`02_risk_register.md`) moving from a hypothetical to an active, confirmed constraint.
+- **Solo delivery, ~4 hours/week** (revised down from the original ~7hr midpoint, using the lower end of the sensitivity range already published below) given secondary-project status. Still a working assumption, not confirmed capacity.
+- **2-week sprints** — unchanged. Keeping the cadence stable rather than stretching sprint length keeps the review rhythm predictable even though less gets done per sprint.
+- Estimates below are grounded in the actual data structure inspected directly — two distinct parser schemas, uncertainty data (RSE/MoE/RRMSE/CI) present and to be carried through, messy multi-row publication headers.
 - No workshops/stakeholder validation time is budgeted — this is solo, self-directed delivery per the Governance Plan; the "workshop" items from the initiation pack are logged as open gaps, not scheduled work.
+- **Sprint 2's start date (27/07/2026) is a firm commitment, not just a plan** — see `08_governance_communication_plan.md` for the stakeholder communication formalising this. Starting on time is achievable regardless of reduced capacity; what changes is how much fits in each sprint thereafter, not whether Sprint 2 begins on schedule.
 
 ## Work items by epic (hours are point estimates, not padded)
 
@@ -63,30 +65,33 @@
 
 **Raw total: 59 hours.** With a ~25% contingency for the rework that always shows up in real data work (a header format that doesn't match assumptions, a metric that needs recomputing) → **~74 hours planned.**
 
-## Sprint plan (5 sprints × 2 weeks = 10 weeks, at 7 hrs/week)
+## Sprint plan (revised 21/07/2026 — 8 sprints total at ~4 hrs/week, secondary-project pace)
 
-Dates use Australian day/month/year format. Sprint 1 is anchored to the Monday of the week the work actually started (13/07/2026), not the Monday after — so "Sprint 1 complete" and "today's date" stay consistent with each other rather than claiming a sprint finished before its own calendar window began.
+Dates use Australian day/month/year format. Sprint 1 ran at full pace before the secondary-project change (it's the only sprint not subject to the revised ~4hr/week assumption, which is why it delivered 15 hours of work in one window rather than the ~8 hours the new pace implies per sprint). Sprint 2 onward assumes ~8 hours of capacity per 2-week sprint.
 
-| Sprint | Dates | Weeks | Contents | Hours | Status | Sprint goal / Definition of Done |
-|---|---|---|---|---|---|---|
-| **1** | 13/07/2026 – 26/07/2026 | 1–2 | H1.1, H1.2, H1.3, H1.4, H1.5 (all of Epic H1 — H1.4/H1.5 finished ahead of their original Sprint 2 slot) | 15 | ✅ Complete, delivered within week 1 (by 19/07/2026) | `data_processed/national_state_indicators.csv` + `phn_modelled_indicators.csv` exist and are populated with verified row counts — **Charter Milestone M1 closes here** |
-| **2** | 27/07/2026 – 09/08/2026 | 3–4 | H2.1, H2.2, H2.3 (H1.4/H1.5 already done — see Sprint 1) | 9 | Not started | Treatment-gap metrics computed with uncertainty bounds attached — **Charter Milestone M2 closes here** |
-| **3** | 10/08/2026 – 23/08/2026 | 5–6 | H3.1, H3.2, H3.3, H4.1 | 14 | Not started | Benchmark and PHN comparison views complete; priority shortlist drafted |
-| **4** | 24/08/2026 – 06/09/2026 | 7–8 | H4.2, H5.1, H5.2, H5.3 | 14 | Not started | `07_gap_analysis.md`, `08_solution_requirements.md`, and both report drafts exist — **Charter Milestone M3 closes here** |
-| **5** | 07/09/2026 – 20/09/2026 | 9–10 | H5.4, H6.1, H6.2, H6.3, contingency buffer | ~7 used + buffer | Not started | Safe-messaging review complete, notebooks documented, README current — **Charter Milestone M4 closes here, project done** |
+| Sprint | Dates | Contents | Hours | Status | Sprint goal / Definition of Done |
+|---|---|---|---|---|---|
+| **1** | 13/07/2026 – 26/07/2026 | H1.1, H1.2, H1.3, H1.4, H1.5 (all of Epic H1) | 15 | ✅ Complete, delivered within week 1 (by 19/07/2026) | `data_processed/national_state_indicators.csv` + `phn_modelled_indicators.csv` populated with verified row counts — **Charter Milestone M1 closes here** |
+| **2** | 27/07/2026 – 09/08/2026 | H2.1, H2.2, H2.3 (all of Epic H2) | 9 | **Committed start date — see stakeholder communication in `08_governance_communication_plan.md`** | Treatment-gap metrics computed with uncertainty bounds attached — **Charter Milestone M2 closes here** |
+| **3** | 10/08/2026 – 23/08/2026 | H3.1, H3.2 | 7 | Not started | Benchmark table/chart and PHN comparison view complete |
+| **4** | 24/08/2026 – 06/09/2026 | H3.3, H4.1 | 7 | Not started | Demographic breakdown complete; priority-population threshold applied — Epic H3 closes here |
+| **5** | 07/09/2026 – 20/09/2026 | H4.2, H5.1 | 6 | Not started | Barrier narrative drafted; `07_gap_analysis.md` drafted — Epic H4 closes here |
+| **6** | 21/09/2026 – 04/10/2026 | H5.2, H5.3 | 8 | Not started | `08_solution_requirements.md` and both report drafts exist — **Charter Milestone M3 closes here** |
+| **7** | 05/10/2026 – 18/10/2026 | H5.4, H6.1, H6.2, H6.3 | 7 | Not started | Safe-messaging review complete, notebooks documented, README current — Epics H5 and H6 close here |
+| **8** | 19/10/2026 – 01/11/2026 | Contingency buffer | ~11 available | Not started | Absorbs rework from unknowns hit in Sprints 2–7 — **Charter Milestone M4 closes here, project done** |
 
-Buffer is deliberately concentrated in Sprint 5 rather than spread evenly — early sprints hit unknowns (a header format that parses differently than expected) that create rework demand later, so back-loading slack is more realistic than pretending every sprint is equally predictable. Sprint 2 now carries less than its original planned load (9 hrs vs. 13) since H1.4/H1.5 landed early in Sprint 1 — that slack is intentionally left unallocated rather than speculatively pulling Sprint 3 work forward.
+Epics are now spread thinner across more, smaller sprints rather than several epics per sprint — a direct consequence of ~8 hours of capacity per sprint instead of ~14. Buffer is concentrated in Sprint 8 rather than spread evenly, same reasoning as the original plan: early sprints hit unknowns that create rework demand later.
 
 ## Total time estimate
 
-**~10 weeks at 7 hrs/week (74 hours with contingency), across 5 sprints.**
+**Revised: ~15 weeks from today (21/07/2026) to project completion (01/11/2026), across 8 sprints — Sprint 1 already done, 7 more at ~4 hrs/week.** This is roughly 5 weeks longer than the original ~10-week estimate, directly reflecting the secondary-project capacity reduction, not new scope — total hours (74 with contingency) are unchanged from the original plan.
 
-Sensitivity — same 74-hour scope at different weekly capacity:
+Sensitivity — same 74-hour scope at different weekly capacity (unchanged from original publication, still holds):
 | Weekly capacity | Total duration |
 |---|---|
-| 4 hrs/week | ~18–19 weeks (9 sprints) |
-| 7 hrs/week (assumed above) | ~10 weeks (5 sprints) |
-| 10 hrs/week | ~7–8 weeks (4 sprints) |
+| 4 hrs/week (current assumption) | ~18–19 weeks total |
+| 7 hrs/week (original assumption, before secondary-project change) | ~10 weeks total |
+| 10 hrs/week | ~7–8 weeks total |
 
 ## Solo-delivery ceremony adaptation
 

@@ -7,7 +7,7 @@
 | **Project title** | The Mental Health Treatment Gap in Western Australia |
 | **Sponsor** | [TO BE CONFIRMED — no real sponsor exists; project is self-directed] |
 | **Product Owner / BA** | Vy Nguyen |
-| **Delivery approach** | Solo/part-time, iterative — one analyst executing BA and DA roles across a single sequential phase plan (not a multi-person Agile team) |
+| **Delivery approach** | Solo/part-time, iterative — one analyst executing BA and DA roles across a single sequential phase plan (not a multi-person Agile team). **Secondary priority as of 21/07/2026** — WA_Mining is the primary commitment; this project proceeds at reduced (~4 hrs/week) capacity. Sprint 2's start date remains a firm commitment regardless — see Milestones and `08_governance_communication_plan.md`. |
 
 ## Background
 See `03_problem_statement_change_request.md` and `04_business_case.md`. Discovery phase complete; this charter authorises Phase 2/3 delivery (Business Case Option 1).
@@ -38,17 +38,18 @@ Dates use Australian day/month/year format. Sprint 1 runs 13/07/2026–26/07/202
 |---|---|---|---|
 | M0 | This initiation pack (`docs/initiation/`) | — | **Complete** |
 | M1 | Data ingestion notebook + `data_processed/` populated | End of Sprint 2 (week 4, by 09/08/2026) | **Complete — delivered 19/07/2026**, within week 1 of Sprint 1, well ahead of target (H1.4/H1.5 completed alongside H1.1-H1.3 rather than split across two sprints) |
-| M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2 (week 4, by 09/08/2026) | Not started |
-| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 4 (week 8, by 06/09/2026) | Not started |
-| M4 | Recommendation report + executive summary published | End of Sprint 5 (week 10, by 20/09/2026) | Not started |
+| M2 | Treatment-gap and barrier-analysis notebooks complete | End of Sprint 2, by 09/08/2026 | **Committed start date 27/07/2026 for Sprint 2** — target completion unchanged, not started |
+| M3 | `07_gap_analysis.md` + `08_solution_requirements.md` drafted | End of Sprint 6, by 04/10/2026 (revised — see below) | Not started |
+| M4 | Recommendation report + executive summary published | End of Sprint 8, by 01/11/2026 (revised — see below) | Not started |
 
-Target dates assume solo delivery at ~7 hrs/week starting 13/07/2026 — see `09_delivery_plan_sprints.md` for the full sprint-by-sprint breakdown, work-item estimates, and sensitivity to actual weekly capacity.
+**Revised 21/07/2026**: M3 and M4 target dates extended from the original plan (previously 06/09/2026 and 20/09/2026) to reflect this project's new secondary-priority status behind WA_Mining — capacity dropped from ~7 hrs/week to ~4 hrs/week, so the same 74-hour scope now spans 8 sprints instead of 5. M1 and M2's targets are unaffected: M1 is already done, and Sprint 2's 27/07/2026 start is a firm commitment regardless of the reduced pace. See `09_delivery_plan_sprints.md` for the full revised sprint-by-sprint breakdown and `08_governance_communication_plan.md` for the stakeholder communication formalising this change.
 
 ## Assumptions
 See `03_problem_statement_change_request.md` §Assumptions (carried forward unchanged).
 
 ## Constraints
 - Solo, part-time delivery; no dedicated data engineering, design, or governance support.
+- **Secondary priority behind WA_Mining as of 21/07/2026** — ~4 hrs/week available, down from the original ~7 hr/week assumption (R-09).
 - No budget; free/open tooling only (Python notebooks, markdown docs — consistent with what's already in the repo).
 - Source data granularity may not support every breakdown BR-03 wants (R-02).
 
@@ -67,7 +68,7 @@ See `08_governance_communication_plan.md` for cadence and escalation detail. Sum
 | Assumption | A-2 | Treatment gap (need − service use) is a reasonable, if imperfect, proxy for unmet need | PO/BA | Accepted with caveat (R-05) |
 | Assumption | A-3 | PHN/remoteness classifications adequately capture metro/rural access differences | PO/BA | Accepted, pending Phase 2 validation |
 | Issue | I-1 | No named sponsor exists, weakening formal governance authority of this charter | PO/BA | Open — accepted as a structural feature of a self-directed case study (R-07) |
-| Issue | I-2 | Zero data processing completed despite mature discovery documentation | PO/BA | Open — this charter's primary purpose is to force resolution (R-06) |
+| Issue | I-2 | Discovery documentation risked outpacing actual delivery | PO/BA | Resolved for Sprint 1 (real data processing shipped, R-06 partially mitigated); same discipline still required every remaining sprint |
 | Dependency | D-1 | Successful parsing of multi-table `.xlsx` source files | PO/BA | Open, blocks M1 |
 | Dependency | D-2 | Resolution of small-cell suppression limits before finalising BR-03 granularity | PO/BA | Open, blocks M2–M3 |
 
